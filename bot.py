@@ -1,8 +1,3 @@
-#!/bin/bash
-
-# nano
-cat <<EOF > bot.py
-
 # bot.py
 import discord
 from discord.ext import commands
@@ -2199,4 +2194,3 @@ if __name__ == "__main__":
     else:
 
         logger.error("No Discord token found in DISCORD_TOKEN environment variable.")
-EOF
