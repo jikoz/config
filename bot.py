@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # nano
 nano bot.py
 # bot.py
@@ -2197,4 +2198,5 @@ if __name__ == "__main__":
     else:
 
         logger.error("No Discord token found in DISCORD_TOKEN environment variable.")
+
 
